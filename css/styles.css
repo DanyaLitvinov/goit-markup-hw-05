@@ -302,6 +302,16 @@ margin-bottom: 72px;
     background-color: #404bbf;
 }
 
+.modal{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.is-hidden{
+    display: none;
+}
+
 
 .team-sec{
     background-color: #F4F4FD;
