@@ -670,3 +670,10 @@ fill:#404bbf;
 .social-list-link-footer:focus{
     background-color: #31d0aa;
 }
+
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    
+}
