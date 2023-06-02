@@ -325,10 +325,6 @@ margin-bottom: 72px;
     background-color: #404bbf;
 }
 
-.is-hidden{
-    display: none;
-}
-
 
 .team-sec{
     background-color: #F4F4FD;
@@ -683,6 +679,7 @@ fill:#404bbf;
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    display: none;
 }
 
 .backdrop{
@@ -764,5 +761,9 @@ fill:#404bbf;
 
 
 .list-item-port:hover .par-portfolio{
+    transform: translateY(0);
+}
+
+.list-item-port:focus .par-portfolio{
     transform: translateY(0);
 }
