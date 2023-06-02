@@ -727,9 +727,9 @@ fill:#404bbf;
     border: none;
 }
 
-.modal-close:hover,
+.modal-close:hover .modal-close-icon,
 .modal-close:focus .modal-close-icon{
-   fill: #ffffff;
+   fill: #FFFFFF;
 }
 
 .modal-close-icon{
