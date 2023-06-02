@@ -758,10 +758,7 @@ fill:#404bbf;
 }
 
 
-.list-item-port:hover .par-portfolio{
-    transform: translateY(0);
-}
-
+.list-item-port:hover,
 .list-item-port:focus .par-portfolio{
-    transform: translateY(0);
+    transform: translateY(0%);
 }
