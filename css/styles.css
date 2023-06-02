@@ -729,7 +729,7 @@ fill:#404bbf;
 
 .modal-close:hover,
 .modal-close:focus .modal-close-icon{
-   fill: white;
+   fill: #ffffff;
 }
 
 .modal-close-icon{
@@ -758,7 +758,10 @@ fill:#404bbf;
 }
 
 
-.list-item-port:hover,
+.list-item-port:hover .par-portfolio{
+    transform: translateY(0%);
+}
+
 .list-item-port:focus .par-portfolio{
     transform: translateY(0%);
 }
